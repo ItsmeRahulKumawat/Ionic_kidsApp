@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "KidsFun",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
