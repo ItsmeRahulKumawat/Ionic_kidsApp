@@ -1,0 +1,13 @@
+ion-content{
+    --background: url(/assets/images/bg.png) no-repeat center/cover fixed;
+  }
+iframe{
+    transition: 5s;
+    border: white;
+    border-radius: 10px;
+}
+  iframe:hover{
+    width: 800px;
+    height: 400px;
+    transition: 5s;
+  }

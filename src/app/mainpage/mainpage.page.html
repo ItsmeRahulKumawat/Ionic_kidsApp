@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Select One, {{data}} <ion-icon style="width: 30px; height: 30px; margin-bottom: -7px;" name="happy-outline"></ion-icon> </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <section class="card-container">
+
+    <ion-card class="card" (click)="alphabet()">
+      <img src="assets/images/abc.png" alt="">
+      <h1>Alphabets</h1>
+    </ion-card>
+
+    <ion-card class="card" (click)="abcd()">
+      <img src="assets/images/chuchu.png" alt="">
+      <h1>ChuChuTv</h1>
+    </ion-card>
+
+    <ion-card class="card" (click)="shapes()">
+      <img src="assets/images/shapes.png" alt="">
+      <h1>Shapes</h1>
+    </ion-card>
+
+    <ion-card class="card">
+      <img src="assets/images/animals.png" alt="">
+      <h1>Animals</h1>
+    </ion-card>
+
+    <ion-card class="card">
+      <img src="assets/images/fruits.png" alt="">
+      <h1>Fruits</h1>
+    </ion-card>
+
+    <ion-card class="card" (click)="number()">
+      <img src="assets/images/numb.png" alt="">
+      <h1>Numbers</h1>
+    </ion-card>
+
+  </section>
+
+</ion-content>

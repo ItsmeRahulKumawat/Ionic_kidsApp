@@ -1,7 +1,11 @@
-<ion-header [translucent]="true">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<ion-header [translucent]="true" style="background-color: transparent;">
   <ion-toolbar>
     <ion-title>
-      Blank
+      KidsFun
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,8 +17,35 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <!-- <style>
+  .hide {
+    display: none;
+  }
+  .trig:hover + .im {
+    display: block;
+  } 
+</style> -->
+
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="ion-card">
+      <div class="col-sm-8 ion-text-center">
+        <div>
+          <h1>What is Your Name?</h1>
+          <input type="text" name="text" id="text" class="text">
+          <br><br><br><br>
+          <div class="trig">
+            <button (click)="menu()" type="submit" class="btn">GO...</button>
+          </div>
+        </div>
+          <!-- <div class="hide"> -->
+          <img class="im" style ="margin-top: 30px;width: 200px; height: 200px;" class ="hi" src="/assets/images/hii.gif" alt="">
+          <!-- </div> -->
+      </div>
+      <div style="position:relative;min-width:960px">
+       </div>
+    </div>
+    <div class="col-sm-2"></div>
   </div>
 </ion-content>
+

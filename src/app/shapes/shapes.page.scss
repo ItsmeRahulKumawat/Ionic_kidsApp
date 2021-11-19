@@ -1,0 +1,37 @@
+ion-content{
+    --background: url(/assets/images/bg.png) no-repeat center/cover fixed;
+  }
+h1{
+    font-size: 200px;
+    color: purple;
+}
+ion-card{
+    transition: 1s;
+    background-color: white;
+    opacity: 1;
+    height: 520px;
+    width: 280px;
+}
+.audio{
+    width: 0px;
+    height: 0px;
+}
+ion-card:hover{
+    .audio{
+    color: white;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    // top: 50%;
+    margin-top: 200px;
+    left: 23%;
+    opacity: 1;
+    -moz-transform: translateX(90%) translateY(90%);
+    -webkit-transform: translateX(-90%) translateY(-90%);
+    transform: translateX(0%) translateY(80%);
+    }
+    border-radius: 40px;
+    transition: 1s;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.103);
+}

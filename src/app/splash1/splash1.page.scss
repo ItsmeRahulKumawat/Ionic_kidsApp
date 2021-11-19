@@ -1,0 +1,14 @@
+ion-content{
+    --background: url(/assets/images/bg.png) no-repeat center/cover fixed;
+  }
+@keyframes puff-in-center{0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
+
+.container{
+    animation:puff-in-center 1s cubic-bezier(.47,0.000,.745,.715) both;
+    img{
+        height: 200px;
+        width: 200px;
+        margin-top: 220px;
+    }
+
+}

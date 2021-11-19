@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Welcome, {{data}} <ion-icon style="width: 30px; height: 30px; margin-bottom: -7px;" name="happy-outline"></ion-icon> </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content><section class="card-container">
+
+  <ion-card class="card" (click)="learn()">
+    <img src="assets/images/learn.gif" alt="">
+    <h1>Learn</h1>
+  </ion-card>
+
+  <ion-card class="card" (click)="quiz()">
+    <img src="assets/images/quiz.png" alt="">
+    <h1>Quiz</h1>
+  </ion-card>
+
+  <ion-card class="card" (click)="leaderboard()">
+    <img src="assets/images/leaderboard.png" alt="">
+    <h1>LeaderBoard</h1>
+  </ion-card>
+    
+  <ion-card class="card" (click)="profile()">
+    <img src="assets/images/profile.png" alt="">
+    <h1>Profile</h1>
+  </ion-card>
+
+</section>
+</ion-content>

@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Leaderboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="ion-text-left"  *ngFor="let user of user_list">
+    <ion-card-header>
+      <ion-card-title>
+        <h1  class="card-title" [ngStyle]="{'color':user.color}"><img src="assets/images/boy.png" alt=""> 1. Rahul Kumawat</h1>
+      </ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card class="ion-text-left"  *ngFor="let user of user_list">
+    <ion-card-header>
+      <ion-card-title>
+        <h1  class="card-title" [ngStyle]="{'color':user.color}"><img src="assets/images/girl.png" alt=""> 2. Pooja Pandey</h1>
+      </ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card class="ion-text-left"  *ngFor="let user of user_list">
+    <ion-card-header>
+      <ion-card-title>
+        <h1  class="card-title" [ngStyle]="{'color':user.color}"><img src="assets/images/girl.png" alt=""> 3. Nidhi Shinde</h1>
+      </ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card class="ion-text-left"  *ngFor="let user of user_list">
+    <ion-card-header>
+      <ion-card-title>
+        <h1  class="card-title" [ngStyle]="{'color':user.color}"><img src="assets/images/boy.png" alt=""> 4. Dipesh Suthar</h1>
+      </ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card class="ion-text-left"  *ngFor="let user of user_list">
+    <ion-card-header>
+      <ion-card-title>
+        <h1  class="card-title" [ngStyle]="{'color':user.color}"><img src="assets/images/boy.png" alt=""> 5. Neeraj Sharma</h1>
+      </ion-card-title>
+    </ion-card-header>
+  </ion-card>
+</ion-content>

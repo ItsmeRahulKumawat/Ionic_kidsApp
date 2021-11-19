@@ -1,0 +1,39 @@
+ion-content{
+    --background: url(/assets/images/bg.png) no-repeat center/cover fixed;
+  }
+
+.icard{
+    opacity: 0.5;
+    width: 100px;
+    height: 100px;
+    transition: 10s;
+}
+
+.card-container {
+	align-items: start;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, 300px);
+	justify-content: center;
+    margin-top: 120px;
+    transition: 10s;
+}
+
+.card {
+	background-color: transparent;
+	border-radius: 50px;
+	color: white;
+	padding: 24px 0 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #555;
+    transition: 1s;
+    opacity: 0.5;
+}
+.card:hover{
+    opacity: 1;
+    background-image: linear-gradient(purple, maroon,orange);
+    transition:1s;
+    width: 300px;
+}

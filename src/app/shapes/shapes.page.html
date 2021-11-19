@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Shapes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<audio autoplay>
+  <source src="file.mp3" type="audio/mpeg">
+</audio>
+
+<div class="row ion-text-center">
+  <div class="col-sm-3 ion-text-center">
+    <ion-card>
+      <img src="assets/images/shapes/circle.png" alt="">
+        <ion-icon (click)="convertTextToSpeech('A')" class="ion-text-center audio" name="play-circle-outline"></ion-icon>
+    </ion-card>
+  </div>
+  <div class="col-sm-3 ion-text-center">
+    <ion-card>
+      <img src="assets/images/shapes/square.png" alt="">
+      <ion-icon class="ion-text-center audio" name="play-circle-outline"></ion-icon>
+    </ion-card>
+  </div>
+  <div class="col-sm-3 ion-text-center">
+    <ion-card>
+      <img src="assets/images/shapes/triangle.png" alt="">
+      <ion-icon class="ion-text-center audio" name="play-circle-outline"></ion-icon>
+
+    </ion-card>
+  </div>
+  <div class="col-sm-3 ion-text-center">
+    <ion-card>
+      <img src="assets/images/shapes/rectangle.png" alt="">
+      <ion-icon class="ion-text-center audio" name="play-circle-outline"></ion-icon>
+
+    </ion-card>
+  </div>
+</div>
+
+</ion-content>
+
+
