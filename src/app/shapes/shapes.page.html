@@ -16,13 +16,13 @@
 
 <div class="row ion-text-center">
   <div class="col-sm-3 ion-text-center">
-    <ion-card>
+    <ion-card (click)="speakcircle()">
       <img src="assets/images/shapes/circle.png" alt="">
-        <ion-icon (click)="convertTextToSpeech('A')" class="ion-text-center audio" name="play-circle-outline"></ion-icon>
+        <ion-icon class="ion-text-center audio" name="play-circle-outline"></ion-icon>
     </ion-card>
   </div>
   <div class="col-sm-3 ion-text-center">
-    <ion-card>
+    <ion-card (click)="speaksquare()">
       <img src="assets/images/shapes/square.png" alt="">
       <ion-icon class="ion-text-center audio" name="play-circle-outline"></ion-icon>
     </ion-card>

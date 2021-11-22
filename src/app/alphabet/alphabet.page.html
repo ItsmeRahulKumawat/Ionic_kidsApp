@@ -10,61 +10,57 @@
 
 <ion-content>
 
-<audio autoplay>
-  <source src="file.mp3" type="audio/mpeg">
-</audio>
-
 <div class="row ion-text-center">
   <div class="col-sm-3 ion-text-center">
-    <ion-card>
+    <ion-card (click)="speakA()">
       <h1>A</h1>
-        <ion-icon (click)="convertTextToSpeech('A')" class="ion-text-center audio" name="play-circle-outline"></ion-icon>
+        <ion-icon class="ion-text-center audio" name="play-circle-outline"></ion-icon>
     </ion-card>
   </div>
   <div class="col-sm-3 ion-text-center">
-    <ion-card>
+    <ion-card (click)="speakB()">
       <h1>B</h1>
       <ion-icon class="ion-text-center audio" name="play-circle-outline"></ion-icon>
     </ion-card>
   </div>
   <div class="col-sm-3 ion-text-center">
-    <ion-card>
+    <ion-card (click)="speakC()">
       <h1>C</h1>
       <ion-icon class="ion-text-center audio" name="play-circle-outline"></ion-icon>
 
     </ion-card>
   </div>
   <div class="col-sm-3 ion-text-center">
-    <ion-card>
+    <ion-card (click)="speakD()">
+      <h1>D</h1>
+      <ion-icon class="ion-text-center audio" name="play-circle-outline"></ion-icon>
+
+    </ion-card>
+  </div>
+  <div class="col-sm-3 ion-text-center">
+    <ion-card (click)="speakE()">
       <h1>E</h1>
       <ion-icon class="ion-text-center audio" name="play-circle-outline"></ion-icon>
 
     </ion-card>
   </div>
   <div class="col-sm-3 ion-text-center">
-    <ion-card>
+    <ion-card (click)="speakF()">
       <h1>F</h1>
       <ion-icon class="ion-text-center audio" name="play-circle-outline"></ion-icon>
 
     </ion-card>
   </div>
   <div class="col-sm-3 ion-text-center">
-    <ion-card>
+    <ion-card (click)="speakG()">
       <h1>G</h1>
       <ion-icon class="ion-text-center audio" name="play-circle-outline"></ion-icon>
 
     </ion-card>
   </div>
   <div class="col-sm-3 ion-text-center">
-    <ion-card>
+    <ion-card (click)="speakH()">
       <h1>H</h1>
-      <ion-icon class="ion-text-center audio" name="play-circle-outline"></ion-icon>
-
-    </ion-card>
-  </div>
-  <div class="col-sm-3 ion-text-center">
-    <ion-card>
-      <h1>I</h1>
       <ion-icon class="ion-text-center audio" name="play-circle-outline"></ion-icon>
 
     </ion-card>

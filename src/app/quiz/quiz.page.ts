@@ -15,4 +15,19 @@ export class QuizPage implements OnInit {
 marks(){
   this.router.navigate(['marks']);
 }
+speakA(){
+  let audio = new Audio();
+    audio.src = "https://evolution.voxeo.com/library/audio/prompts/alphabet/A.wav";
+    audio.play();
+}
+speakD(){
+  let audio = new Audio();
+    audio.src = "https://evolution.voxeo.com/library/audio/prompts/alphabet/D.wav";
+    audio.play();
+}
+speaksquare(){
+  let audio = new Audio();
+    audio.src = "assets/audio/square.wav";
+    audio.play();
+}
 }

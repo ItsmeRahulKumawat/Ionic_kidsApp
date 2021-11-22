@@ -12,4 +12,14 @@ export class ShapesPage implements OnInit {
   ngOnInit() {
   }
 
+  speakcircle(){
+    let audio = new Audio();
+    audio.src = "assets/audio/circle.wav";
+    audio.play();
+  }
+  speaksquare(){
+    let audio = new Audio();
+    audio.src = "assets/audio/square.wav";
+    audio.play();
+  }
 }

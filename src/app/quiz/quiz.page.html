@@ -7,12 +7,15 @@
     <ion-title>Quiz</ion-title>
   </ion-toolbar>
 </ion-header>
-
+<audio controls autoplay hidden>
+  <source src="assets/audio/quiz.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
 <ion-content>
 
  <div class="row ion-text-center">
   <div class="col-sm-2 ion-text-center">
-    <ion-card class="qcard">
+    <ion-card class="qcard" (click)="speakA()">
       <h1 class="question" style="margin-top: 50px;"></h1>
         <ion-icon (click)="convertTextToSpeech('A')" class="ion-text-center audio" name="play-circle-outline"></ion-icon>
     </ion-card>
@@ -73,7 +76,7 @@
 
  <div class="row ion-text-center">
   <div class="col-sm-2 ion-text-center">
-    <ion-card class="qcard">
+    <ion-card class="qcard" (click)="speakD()">
       <h1 class="question" style="margin-top: 50px;"></h1>
         <ion-icon (click)="convertTextToSpeech('A')" class="ion-text-center audio" name="play-circle-outline"></ion-icon>
     </ion-card>
@@ -133,7 +136,7 @@
 
  <div class="row ion-text-center">
   <div class="col-sm-2 ion-text-center">
-    <ion-card class="qcard">
+    <ion-card class="qcard" (click)="speaksquare()">
       <h1 class="question" style="margin-top: 50px;"></h1>
         <ion-icon (click)="convertTextToSpeech('A')" class="ion-text-center audio" name="play-circle-outline"></ion-icon>
     </ion-card>
